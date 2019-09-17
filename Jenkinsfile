@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('---clean---') { 
             steps {
-                sh "/home/richard/javaTools/apache-maven-3.6.2/bin/mvn clean"
+                sh "mvn clean"
             }
         }
         stage('---test---') { 
